@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Desing + Code</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cuadro-principal {
+    width: 360px;
+    height: 340px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e7e9ff;
+    border: 2px solid #ccc;
+    position: relative;
+    box-sizing: border-box;
+    direction: rtl;         /* Texto de derecha a izquierda */
+    text-align: center;     /* Centramos visualmente el texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos */
+  }
+
+  .cuadro-interno {
+    width: 100%;
+    height: 33%;
+    border-radius: 10px;
+    background-color: #2A2D37;
+    border: 1px solid #aaa;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  h1, p {
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="cuadro-principal">
+    <h1>Kartik Khorwal</h1>
+    <div class="cuadro-interno">
+      <p style="color: #CDCDCD;">Desing + Code.</p>
+    </div>
+    <p>Building websites and webapps with seamless user experiences across devices.</p>
+  </div>
+</body>
+</html>
+
+
