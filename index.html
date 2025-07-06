@@ -1,66 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<title>Desing + Code</title>
-<style>
-  body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  <meta charset="UTF-8" />
+  <title>Design + Code</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f5;
+    }
 
-  .cuadro-principal {
-    width: 360px;
-    height: 340px;
-    padding: 20px;
-    border-radius: 15px;
-    background-color: #e7e9ff;
-    border: 2px solid #ccc;
-    position: relative;
-    box-sizing: border-box;
-    direction: rtl;         /* Texto de derecha a izquierda */
-    text-align: center;     /* Centramos visualmente el texto */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Espacio entre elementos */
-  }
+    .cuadro-principal {
+      width: 360px;
+      height: 340px;
+      padding: 20px;
+      border-radius: 15px;
+      background-color: #e7e9ff;
+      border: 2px solid #ccc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      box-sizing: border-box;
+    }
 
-  .cuadro-interno {
-    width: 100%;
-    height: 33%;
-    border-radius: 10px;
-    background-color: #2A2D37;
-    border: 1px solid #aaa;
-    position: absolute;
-    top: 20px;
-    left: 0;
-    padding: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+    .cuadro-interno {
+      width: 100%;
+      height: 80px;
+      border-radius: 10px;
+      background-color: #2A2D37;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  h1, p {
-    margin: 0;
-  }
-</style>
+    .cuadro-interno p {
+      color: #CDCDCD;
+      font-size: 1.2rem;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 1.4rem;
+      color: #000;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    .descripcion {
+      font-size: 1rem;
+      color: #333;
+      max-width: 90%;
+    }
+  </style>
 </head>
 <body>
   <div class="cuadro-principal">
-    <h1>Kartik Khorwal</h1>
     <div class="cuadro-interno">
-      <p style="color: #CDCDCD;">Desing + Code.</p>
+      <p>Design + Code.</p>
     </div>
-    <p>Building websites and webapps with seamless user experiences across devices.</p>
+    <h1>Kartik Khorwal</h1>
+    <p class="descripcion">Building websites and webapps with seamless user experiences across devices.</p>
   </div>
 </body>
 </html>
+
+
 
 
